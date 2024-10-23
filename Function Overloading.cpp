@@ -25,6 +25,8 @@ int main()
     add(2, 3);
     add(2, 3, 4);
 
+    cout << "\n";
+
     multiply(2, 3.4);
     multiply(3.4, 2);
 
