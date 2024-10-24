@@ -16,11 +16,11 @@ class person
         height = y;
     } 
     
-    person(person &obj1) // Copy Constructor
+    person(person &obj2) // Copy Constructor
     {
-        name = obj1.name;
-        age = obj1.age;
-        height = obj1.height;
+        name = obj2.name;
+        age = obj2.age;
+        height = obj2.height;
     }
     
     void get_data() 
