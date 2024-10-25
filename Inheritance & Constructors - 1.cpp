@@ -21,9 +21,9 @@ class derived : public base
 
 int main() 
 {
-	derived d1;
-	cout << endl;
-	derived d2(9);
+    derived d1;
+    cout << endl;
+    derived d2(9);
 	
     return 0;
 }
