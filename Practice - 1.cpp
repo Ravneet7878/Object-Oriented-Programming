@@ -50,5 +50,5 @@ int main()
     Phone obj3(obj2);
     obj3.get_data();
     
-	return 0;
+    return 0;
 }
