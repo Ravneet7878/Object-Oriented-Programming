@@ -68,5 +68,5 @@ int main()
     total++; // Operator Overloading For Post Increment
     total.get_data();
     
-	return 0;
+    return 0;
 }
