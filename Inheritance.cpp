@@ -27,12 +27,12 @@ class cuboid : public rectangle // Child or Derived class
 
 int main() 
 {
-	cuboid temp;
-	temp.length = 10, temp.breadth = 20, temp.height = 30;
-	temp.display();
-	temp.show();
-	temp.area();
-	temp.volume();
+    cuboid temp;
+    temp.length = 10, temp.breadth = 20, temp.height = 30;
+    temp.display();
+    temp.show();
+    temp.area();
+    temp.volume();
 	
     return 0;
 }
