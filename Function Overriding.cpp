@@ -19,8 +19,8 @@ class derived : public base
 
 int main() 
 {
-	derived d;
-	d.msg();
+    derived d;
+    d.msg();
 	
     return 0;
 }
