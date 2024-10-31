@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/* Abstract Class is a class that consist of Pure Virtual Function hence this function just makes the class as parent class only which perform no function i.e the object of Parent Class doesn't exist */
+/* Abstract Class is a class that consist of Pure Virtual Function hence this function just makes the class as parent class only which perform no function i.e the object of Parent Class doesn't get created */
 
 class person // Abstract Class
 {
