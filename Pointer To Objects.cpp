@@ -29,11 +29,9 @@ int main()
     (*ptr).set_data(2, 5);
     (*ptr).get_data();
     
-    
     Complex *ptr_new = new Complex;
     (*ptr_new).set_data(3, 4);
     ptr_new -> get_data();
-    
     
     // Array Of Objects
     Complex *arr = new Complex[5];
@@ -59,5 +57,5 @@ int main()
         arr_ptr++;
     }
     
-	return 0;
+    return 0;
 }
