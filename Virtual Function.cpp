@@ -27,5 +27,5 @@ int main()
     base *ptr_2 = new derived_2();
     ptr_2 -> msg();
     
-	return 0;
+    return 0;
 }
