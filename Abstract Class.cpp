@@ -31,5 +31,5 @@ int main()
     ptr = new girl();
     ptr -> give();
     
-	return 0;
+    return 0;
 }
