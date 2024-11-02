@@ -37,5 +37,5 @@ int main()
     
     cout << "Value of count using Alpha = " << Alpha :: get_count() << endl;
     
-	return 0;
+    return 0;
 }
