@@ -20,5 +20,5 @@ int main()
     base *ptr = new derived;
     delete ptr;
     
-	return 0;
+    return 0;
 }
