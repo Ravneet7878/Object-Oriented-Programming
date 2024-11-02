@@ -30,5 +30,5 @@ int main()
     cout << "Value of count using object a2 = " << a2.count << endl;
     cout << "Value of count using Alpha = " << Alpha :: count << endl;
     
-	return 0;
+    return 0;
 }
