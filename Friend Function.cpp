@@ -37,17 +37,17 @@ Complex sum_complex(Complex obj1, Complex obj2) // It is not a Member Function
 
 int main() 
 {
-	Complex c1;
-	c1.set_data(5, 6);
-	c1.get_data();
+    Complex c1;
+    c1.set_data(5, 6);
+    c1.get_data();
 	
-	Complex c2;
-	c2.set_data(1, 4);
-	c2.get_data();
+    Complex c2;
+    c2.set_data(1, 4);
+    c2.get_data();
 	
-	Complex sum;
-	sum = sum_complex(c1, c2);
-	sum.get_data();
+    Complex sum;
+    sum = sum_complex(c1, c2);
+    sum.get_data();
 	
-	return 0;
+    return 0;
 }
