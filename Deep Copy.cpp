@@ -35,10 +35,8 @@ class Dummy
     }
 
     public:
-    ~Dummy()
-    {
-        delete p;
-    }
+    ~Dummy() {delete p;}
+};
 
 int main() 
 {
