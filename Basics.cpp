@@ -31,5 +31,5 @@ int main()
     h2.set_data(300, 400);
     h2.area();
     
-	return 0;
+    return 0;
 }
