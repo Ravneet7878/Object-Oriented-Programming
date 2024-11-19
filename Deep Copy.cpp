@@ -2,7 +2,7 @@
 using namespace std;
 
 /* Necesarry points regarding Deep Copy :-
-1. Deep copy is done when object contains a pointer pointing to memory location outside the object, if we do the shallow copy the pointer of the copied object will also point to same memory location as the main object was point was pointing
+1. Deep copy is done when object contains a pointer pointing to memory location outside the object, if we do the shallow copy the pointer of the copied object will also point to same memory location as the first object was pointing
 2. In shallow copy the destructor would have destroyed the original object leading to release of memory location pointed by the pointer but since the pointer of copied object was also pointing it, it would continue to point empty (invalid) memory location making the pointer a Danling Pointer */
 
 class Dummy
