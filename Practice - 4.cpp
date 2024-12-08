@@ -21,8 +21,8 @@ class person
 
 int main() 
 {
-	person a;
-	person *b = new person();
+    person a;
+    person *b = new person();
 	
-	return 0;
+    return 0;
 }
