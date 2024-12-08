@@ -7,7 +7,7 @@ using namespace std;
  Destructor called
  
  Explaination :-
- This is the output because for the object 'a' destructor will be called automatically once the main function is executed completely as it is static memory allocation which is stored using stack whereas for the object 'a' we have to call destructor using delete[] as it is dynamic memory allocation which stored using heap.
+ This is the output because for the object 'a' destructor will be called automatically once the main function is executed completely as it is static memory allocation which is stored using stack whereas for the object 'a' we have to call destructor using delete as it is dynamic memory allocation which stored using heap.
 */
 
 class person
